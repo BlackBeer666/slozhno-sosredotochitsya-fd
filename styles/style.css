@@ -66,7 +66,7 @@
   content: 'REC';
   color: var(--deco-icon-color);
   font-weight: normal;
-  line-height: 25px;  
+  line-height: 25px;
 }
 .decorated-icon::after {
   content: '';
@@ -247,13 +247,11 @@
 
 .header__title {
   margin-left: 0;
+  font-size: clamp(7.5rem, 0.563rem + 14.453vw, 15rem)
 }
 
 .header__theme-menu {
   margin: auto 20px;
-}
-.header__title {
-  font-size: clamp(7.5rem, 0.563rem + 14.453vw, 15rem)
 }
 .header__text {
   justify-self: right;
