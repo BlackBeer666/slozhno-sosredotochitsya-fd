@@ -98,8 +98,7 @@
   border: 1px solid var(--button-color);
   pointer-events: none;
 }
-
-.header__theme-menu-button:hover:not( .header__theme-menu-button_active){
+.header__theme-menu-button:hover:not(.header__theme-menu-button_active) {
   border: 1px solid var(--border-color-opacity);
 }
 .header__theme-menu-button:focus,
