@@ -1,58 +1,41 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
   --page-bg-color: var(--pink-bg-color);
-  --background-image:  url("../images/cover-image-light.png");
+  --background-image: url("../images/cover-image-light.png");
   --title-color: var(--minimal-pink-color);
   --button-color: var(--black-title-color);
-  --border-color-opacity:#32312D66;
+  --border-color-opacity: #32312d66;
   --title-shadow-color: var(--accent-pink-color);
-  --header-paragraph-bg: var(--accent-pink-color);
-  --header-text-color: var(--black-title-color);
+  --title-decor-bg: var(--accent-pink-color);
+  --title-decor-color: var(--black-title-color);
   --deco-zone-color: var(--black-title-color);
   --deco-icon-color: transparent;
   --deco-icon-shadow: transparent;
   --section-color: var(--pink-bg-color);
   --question-color: var(--black-title-color);
-  --answer_title-color: var(--black-title-color);
-  --answer_bg-color: var(--accent-pink-color);
   --answer-text-color: var(--black-title-color);
   --answer-link: var(--accent-pink-color);
-  --advice_bg-color: var(--accent-pink-color);
-  --advice-title-color: var(--black-title-color);
   --footer-title-color: var(--minimal-pink-color);
   --footer-shadow-color: var(--accent-pink-color);
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
-  --page-bg-color: var(--pink-bg-color);
-  --background-image:  url("../images/cover-image-light.png");
-  --title-color: var(--minimal-pink-color);
-  --button-color: var(--black-title-color);
-  --border-color-opacity: #32312D66;
-  --title-shadow-color: var(--accent-pink-color);
-  --header-paragraph-bg: var(--accent-pink-color);
-  --header-text-color: var(--black-title-color);
-  --deco-zone-color: var(--black-title-color);
-  --deco-icon-color: transparent;
-  --deco-icon-shadow: transparent;
-  --section-color: var(--pink-bg-color);
-  --question-color: var(--black-title-color);
-  --answer_title-color: var(--black-title-color);
-  --answer_bg-color: var(--accent-pink-color);
-  --answer-text-color: var(--black-title-color);
-  --answer-link: var(--accent-pink-color);
-  --advice_bg-color: var(--accent-pink-color);
-  --advice-title-color: var(--black-title-color);
+    --page-bg-color: var(--pink-bg-color);
+    --background-image: url("../images/cover-image-light.png");
+    --title-color: var(--minimal-pink-color);
+    --button-color: var(--black-title-color);
+    --border-color-opacity: #32312d66;
+    --title-shadow-color: var(--accent-pink-color);
+    --title-decor-bg: var(--accent-pink-color);
+    --title-decor-color: var(--black-title-color);
+    --deco-zone-color: var(--black-title-color);
+    --deco-icon-color: transparent;
+    --deco-icon-shadow: transparent;
+    --section-color: var(--pink-bg-color);
+    --question-color: var(--black-title-color);
+    --answer-text-color: var(--black-title-color);
+    --answer-link: var(--accent-pink-color);
+    --footer-title-color: var(--minimal-pink-color);
+    --footer-shadow-color: var(--accent-pink-color);
   }
 }

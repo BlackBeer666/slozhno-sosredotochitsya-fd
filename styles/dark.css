@@ -1,43 +1,19 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
   --page-bg-color: var(--black-bg-color);
-  --background-image:  url("../images/cover-image-dark.png");
+  --background-image: url("../images/cover-image-dark.png");
   --title-color: var(--pink-color);
   --button-color: var(--almost-red-color);
-  --border-color-opacity: #FF007066;
+  --border-color-opacity: #ff007066;
   --title-shadow-color: var(--almost-red-color);
-  --header-paragraph-bg: var(--almost-red-color);
-  --header-text-color: var(--black-bg-color);
+  --title-decor-bg: var(--almost-red-color);
+  --title-decor-color: var(--black-bg-color);
   --deco-zone-color: var(--almost-red-color);
   --deco-icon-color: var(--almost-red-color);
   --deco-icon-shadow: var(--almost-red-color);
   --section-color: var(--black-bg-color);
   --question-color: var(--almost-red-color);
-  --answer_title-color: var(--black-bg-color);
-  --answer_bg-color: var(--almost-red-color);
   --answer-text-color: var(--almost-pink-color);
   --answer-link: var(--almost-red-color);
-  --advice_bg-color: var(--almost-red-color);
-  --advice-title-color: var(--black-bg-color);
   --footer-title-color: var(--pink-color);
   --footer-shadow-color: var(--almost-red-color);
 }
-
-
-
-
-  
-
-
-
-
-
