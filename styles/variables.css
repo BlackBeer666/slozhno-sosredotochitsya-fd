@@ -12,7 +12,8 @@
   --minimal-pink-color: #ffc2e6;
   --accent-pink-color: #ff8dcb;
   --font-size-base: 18px;
-  --font-style-base: "IBM Plex Mono", "Arial", sans-serif;
+  --hero-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-style-base: "IBM Plex Mono", "Arial", monospace;
   --page-bg-color: var(--black-bg-color);
   --background-image: url("../images/cover-image-dark.png");
   --title-color: var(--pink-color);
@@ -30,4 +31,10 @@
   --answer-link: var(--almost-red-color);
   --footer-title-color: var(--pink-color);
   --footer-shadow-color: var(--almost-red-color);
+}
+
+@media (width >=768px) {
+  :root {
+    --hero-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
