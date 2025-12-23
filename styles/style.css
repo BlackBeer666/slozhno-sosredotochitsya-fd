@@ -143,7 +143,6 @@
   margin-top: 20px;
 }
 
-
 .advice_title {
   margin-top: 20px;
   font-weight: normal;
@@ -220,7 +219,7 @@
   text-shadow: 2px 2px 0 var(--footer-shadow-color);
 }
 
-@media (width >=768px) {
+@media (width >= 768px) {
   .header {
     min-height: 1024px;
     padding: 20px 0;
@@ -294,6 +293,12 @@
     margin-bottom: 20px;
   }
 
+ .section_how .answer {
+  gap: 0;
+  margin-bottom: 0;
+
+ }
+
   .answer_text {
     margin: 0;
   }
@@ -322,17 +327,17 @@
   }
 
   .ice-cream_pic {
-    grid-column: 3/4;
-    grid-row: 1/3;
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
   }
 
   .tape_pic {
-    grid-column: 1/2;
-    grid-row: 2/4;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
   }
 
   .street_pic {
-    grid-column: 2/4;
+    grid-column: 2 / 4;
   }
 
   .footer {
@@ -341,7 +346,7 @@
   }
 }
 
-@media (width >=1024px) {
+@media (width >= 1024px) {
   .header {
     min-height: 768px;
   }
